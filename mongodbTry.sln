@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongodbTry.api", "mongodbTry.api\mongodbTry.api.csproj", "{4038FAD9-9E48-48B2-B10B-64378E7AECDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongodbTry.data", "mongodbTry.data\mongodbTry.data.csproj", "{77008EB3-B22D-4863-9271-87D69F94A232}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4038FAD9-9E48-48B2-B10B-64378E7AECDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4038FAD9-9E48-48B2-B10B-64378E7AECDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4038FAD9-9E48-48B2-B10B-64378E7AECDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4038FAD9-9E48-48B2-B10B-64378E7AECDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77008EB3-B22D-4863-9271-87D69F94A232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77008EB3-B22D-4863-9271-87D69F94A232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77008EB3-B22D-4863-9271-87D69F94A232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77008EB3-B22D-4863-9271-87D69F94A232}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BFB2372-26BE-420A-B417-8228EFA3E6AB}
+	EndGlobalSection
+EndGlobal
