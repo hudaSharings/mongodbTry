@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace mongodbTry.data
+namespace mongodbTry.core
 {
     public static class ServicesCollections
     {
@@ -18,12 +18,6 @@ namespace mongodbTry.data
             services.AddScoped(typeof(IMongoRepository<>), typeof(MongoRepository<>));
             return services;
 
-        }
-        public static IServiceCollection Addservices(this IServiceCollection services)
-        {
-            //services.AddScoped(typeof(IMongoRepository<>), typeof(MongoRepository<>));
-            return services;
-
-        }
+        }       
     }
 }

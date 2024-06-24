@@ -1,4 +1,6 @@
-﻿namespace mongodbTry.data.Bson
+﻿using mongodbTry.core;
+
+namespace mongodbTry.data.Bson
 {
     [BsonCollection("users")]
     public class Users : Document<Users>, IDocument

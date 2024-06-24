@@ -1,4 +1,4 @@
-﻿namespace mongodbTry.data
+﻿namespace mongodbTry.core
 {
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
     public class BsonCollectionAttribute : Attribute

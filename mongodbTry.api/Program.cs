@@ -1,4 +1,5 @@
 using Microsoft.Extensions.Configuration;
+using mongodbTry.core;
 using mongodbTry.data;
 using mongodbTry.data.Bson;
 

@@ -1,4 +1,4 @@
-﻿namespace mongodbTry.data
+﻿namespace mongodbTry.core
 {
     public interface IMongoDbSettings
     {

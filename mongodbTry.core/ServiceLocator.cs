@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
 
-namespace mongodbTry.data
+namespace mongodbTry.core
 {
     public static class ServiceLocator
     {

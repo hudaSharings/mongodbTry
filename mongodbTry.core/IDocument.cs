@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using MongoDB.Driver;
 using System.Linq.Expressions;
 
-namespace mongodbTry.data
+namespace mongodbTry.core
 {
     public interface IDocument
     {
